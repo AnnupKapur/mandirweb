@@ -5,5 +5,6 @@ export type MenuItemMain = {
 	display: string,
 	iconPrefer: boolean,
 	showItemMain: boolean,
+	showItemMobile: boolean,
 	icon?: IconType,
 }

@@ -1,0 +1,1 @@
+export const ScreenSizeMobile = 900;

@@ -2,11 +2,12 @@ import { MenuItemMain } from "@lib/types/MenuItemMain";
 import { MdHome } from 'react-icons/md';
 
 const MenuItemHome: MenuItemMain = {
-	name: 'homepage',
+	name: '',
 	display: 'Home',
 	iconPrefer: false,
 	icon: MdHome,
 	showItemMain: false,
+	showItemMobile: true,
 }
 
 const MenuItemAbout: MenuItemMain = {
@@ -14,6 +15,7 @@ const MenuItemAbout: MenuItemMain = {
 	display: 'About',
 	iconPrefer: false,
 	showItemMain: true,
+	showItemMobile: true,
 }
 
 const MenuItemBooking: MenuItemMain = {
@@ -21,6 +23,7 @@ const MenuItemBooking: MenuItemMain = {
 	display: 'Booking',
 	iconPrefer: false,
 	showItemMain: true,
+	showItemMobile: true,
 }
 
 const MenuItemGoingOn: MenuItemMain = {
@@ -28,6 +31,7 @@ const MenuItemGoingOn: MenuItemMain = {
 	display: 'Caldendar',
 	iconPrefer: false,
 	showItemMain: true,
+	showItemMobile: true,
 }
 
 const MenuItemMatrimonial: MenuItemMain = {
@@ -35,6 +39,7 @@ const MenuItemMatrimonial: MenuItemMain = {
 	display: 'Matrimonial',
 	iconPrefer: false,
 	showItemMain: true,
+	showItemMobile: true,
 }
 
 const MenuItemTeam: MenuItemMain = {
@@ -42,6 +47,7 @@ const MenuItemTeam: MenuItemMain = {
 	display: 'Team',
 	iconPrefer: false,
 	showItemMain: true,
+	showItemMobile: true,
 }
 
 const MenuItemContact: MenuItemMain = {
@@ -49,6 +55,7 @@ const MenuItemContact: MenuItemMain = {
 	display: 'Contact',
 	iconPrefer: false,
 	showItemMain: true,
+	showItemMobile: true,
 }
 
 export const MenuMain = [

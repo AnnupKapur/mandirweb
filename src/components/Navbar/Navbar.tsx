@@ -74,15 +74,9 @@ const Navbar = (props: Props) => {
 								/>
 							</div>
 							{MenuMain.map(MenuItem => (
-								(MenuItem.showItemMain && (
+								(MenuItem.showItemMobile && (
 									<div className={styles.nav_item_mobile} key={MenuItem.name}>
-									{(MenuItem.iconPrefer && MenuItem.icon) && (
-										<MenuItem.icon size={25}/>
-										)}
-									{(!MenuItem.iconPrefer || 
-										(MenuItem.iconPrefer && !MenuItem.icon)) && (
-											MenuItem.display
-										)}
+										{MenuItem.display}
 									</div>
 								))
 							))}
