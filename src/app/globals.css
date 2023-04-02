@@ -1,6 +1,9 @@
 :root {
+  --fire-brick: #B22222;
+  --fire-brick-hover: hsl(0, 60%, 55%);
   --indian-red: #CD5C5C;
   --burnt-sienna: #E97451;
+  --sienna: #A0522D;
   --mint-green: #98FB98;
   --sage-green: #9DC183;
   --olive-green: #808000;
@@ -13,7 +16,7 @@
   --text-color-light: #333333;
   --accent-color-light: var(--indian-red);
   --background-color-dark: #333333;
---text-color-dark: #FFFFFF;
+  --text-color-dark: #FFFFFF;
   --accent-color-dark: var(--indian-red);
   --nav-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px -2px;
 }
@@ -29,6 +32,8 @@ body {
   background-color: var(--background-color-light);
   color: var(--text-color-light);
   --accent-color: var(--accent-color-light);
+  --nav-bg: var(--indian-red);
+  --nav-bg-hover: var(--burnt-sienna);
 }
 
 nav {
@@ -68,6 +73,8 @@ button {
     background-color: var(--background-color-dark);
     color: var(--text-color-dark);
     --accent-color: var(--accent-color-dark);
+    --nav-bg: var(--fire-brick);
+    --nav-bg-hover: var(--fire-brick-hover);
   }
 
   nav {
