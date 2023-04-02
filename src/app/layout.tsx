@@ -1,6 +1,6 @@
 import './globals.css';
 import Navbar from '@lib/components/Navbar/Navbar';
-import { Noto_Sans_Display } from '@next/font/google'
+import { Noto_Sans_Display } from 'next/font/google'
 
 export const metadata = {
   title: 'Durga Bhawan',
