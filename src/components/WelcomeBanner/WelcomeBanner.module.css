@@ -1,0 +1,66 @@
+.mainContainer{
+	position: relative;
+	width: 100%;
+}
+
+.bannerOverlay{
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0;
+	margin: 0;
+	gap: 0px;
+	border: none;
+	box-shadow: 10px 10px 20px -10px black;
+}
+
+.bannerOverlay > h1 {
+	background-color: var(--pale-lemon-800);
+	padding: 10px 20px;
+	margin: 0;
+	width: 100%;
+	color: var(--banner-bg);
+	font-size: 3rem;
+}
+
+.bannerOverlay > p {
+	font-style: italic;
+	background-color: var(--banner-bg);
+	color: var(--pale-lemon);
+	padding: 10px 20px;
+	width: 100%;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+@media (max-width: 1000px) {
+	.bannerOverlay{
+		top: 40%;
+		left: 0;
+		transform: unset;
+		min-width: 50%;
+		max-width: 80%;
+	}
+}
+
+@media (max-width: 320px) {
+	.bannerOverlay{
+		width: 80%;
+		max-width: unset;
+		min-width: unset;
+	}
+
+	.bannerOverlay > h1 {
+		font-size: 2rem;
+	}
+
+	.bannerOverlay > p {
+		font-size: 1rem;
+	}
+}
