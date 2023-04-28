@@ -39,13 +39,33 @@
 	margin: 0;
 }
 
-@media (max-width: 1000px) {
+.newsContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	padding: 8px 0;
+	background-color: var(--banner-bg);
+	color: var(--pale-lemon);
+	font-weight: 600;
+	font-size: large;
+}
+
+@media (max-width: 900px) {
 	.bannerOverlay{
 		top: 40%;
 		left: 0;
 		transform: unset;
 		min-width: 50%;
 		max-width: 80%;
+	}
+
+	.newsContainer {
+		bottom: unset;
+		top: 0;
 	}
 }
 

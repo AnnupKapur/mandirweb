@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <WelcomeBanner />
-      <div>Soemthing cool here</div>
+      <div>Something cool here</div>
     </main>
   )
 }
