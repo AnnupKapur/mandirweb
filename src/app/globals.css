@@ -89,6 +89,7 @@ button {
 
   a:visited {
     color: lightgray;
+    opacity: 0.99;
   }
 
   a:hover {
